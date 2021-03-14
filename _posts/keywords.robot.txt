@@ -1,8 +1,21 @@
 robot test file
 
+*** Test Cases***
+Test Case One
+	keyword One
+	Keyword Two
+
+Test Case Two
+	Keyword One
+	Keyword Half
+	Keyword Two
+
 *** Keywords ***
 Keyword One
 	element should be visible 	//link[@data-robot-id="here"]
+
+keyword Half
+	adding something in between
 
 Keyword Two
 	Adding second element
