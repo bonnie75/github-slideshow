@@ -14,6 +14,8 @@ To Commit a File
 	git commit -m "<my commit message>"	#Commit the file
 	git push				#Send to Remote branch
 
+#Should Only update on Branch Files to Avoid Conflicts
+
 Create PR from Stash
 	Go to Jira/Stash
 	Create PR button
@@ -37,6 +39,3 @@ To Resolve Conflicts
 	Modify file in Branch
 	To Commit a File
 	Create A PR			#all steps above would cause a conflict which i should not modify any files in main
-
-
-
