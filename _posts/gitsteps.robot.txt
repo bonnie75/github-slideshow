@@ -39,3 +39,6 @@ To Resolve Conflicts
 	Modify file in Branch
 	To Commit a File
 	Create A PR			#all steps above would cause a conflict which i should not modify any files in main
+
+To make sure both main and branch are up to date
+	do git pull on both branches
