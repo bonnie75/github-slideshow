@@ -25,3 +25,8 @@ Keyword Two
 keyword Three
 	adding something in between
 
+Keyword four
+	do another steps
+	wondering if i have to switch branch
+	anywhere between add and merge
+
