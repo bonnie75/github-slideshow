@@ -9,7 +9,34 @@ To Push the branch to Remote Repository
 
 To Commit a File
 	git checkout <branch_name> 		#to work in
-	create a file
+	create or open a file
 	git add -A or <filename>		#stage the file
 	git commit -m "<my commit message>"	#Commit the file
 	git push				#Send to Remote branch
+
+Create PR from Stash
+	Go to Jira/Stash
+	Create PR button
+	add reviewers
+	click OK
+
+If No Conflicts
+	Merge The PR from Stash
+	OR in GIT BASH
+	git checkout main		#checkout to the main branch
+	git merge <branch_name>		#merge the working branch
+	git push 			#push the merged history to remote repository
+	git branch -d <branch_name> (optional)	#delete branch locally if i don't need to it
+	
+	
+To Resolve Conflicts
+	git checkout main
+	Modify file in Main
+	To Commit a File
+	git checkout <branch_name>
+	Modify file in Branch
+	To Commit a File
+	Create A PR			#all steps above would cause a conflict which i should not modify any files in main
+
+
+
