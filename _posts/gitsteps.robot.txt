@@ -13,3 +13,5 @@ To Commit a File
 	git add -A or <filename>		#stage the file
 	git commit -m "<my commit message>"	#Commit the file
 	git push				#Send to Remote branch
+
+Should Only update on Branch Files to Avoid Conflicts
