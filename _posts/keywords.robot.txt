@@ -3,3 +3,7 @@ robot test file
 *** Keywords ***
 Keyword One
 	element should be visible 	//link[@data-robot-id="here"]
+
+Keyword Two
+	Adding second element
+	element should merge to first
