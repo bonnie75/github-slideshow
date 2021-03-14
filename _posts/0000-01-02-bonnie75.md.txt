@@ -2,5 +2,5 @@
 layout: slide
 title: "welcome to our second slide!"
 ----
-This is Bonbon's first file commit
+I Just Finished a PR and Modifying the file now
 Use the Left Arrow to go back!
