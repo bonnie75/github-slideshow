@@ -1,0 +1,15 @@
+*** Document ***	This file is to list out the steps and commands of git
+
+*** Test Cases ***
+To Create A Branch
+	git branch <branch_name>
+	
+To Push the branch to Remote Repository
+	git push --setupstream origin (not sure i need this) <branch_name>
+
+To Commit a File
+	git checkout <branch_name> 		#to work in
+	create a file
+	git add -A or <filename>		#stage the file
+	git commit -m "<my commit message>"	#Commit the file
+	git push				#Send to Remote branch
