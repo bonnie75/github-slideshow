@@ -7,16 +7,21 @@ Test Case One
 
 Test Case Two
 	Keyword One
-	Keyword Half
+	Keyword Three
 	Keyword Two
+
+Test Case Three
+	Keyword One
+	Keyword Three
 
 *** Keywords ***
 Keyword One
-	element should be visible 	//link[@data-robot-id="here"]
-
-keyword Half
-	adding something in between
+	element should be visible 	//link[@data-robot-id="test-id"]
 
 Keyword Two
 	Adding second element
-	element should merge to first
+	element should merge to first	//button[@data-robot-id="test-button"]
+
+keyword Three
+	adding something in between
+
