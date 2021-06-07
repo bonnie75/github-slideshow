@@ -47,3 +47,6 @@ To Resolve Conflicts
 
 To make sure both main and branch are up to date
 	do git pull on both branches
+	git checkout <branch_name>
+	git merge main 	#to add copy of main to my branch
+	
