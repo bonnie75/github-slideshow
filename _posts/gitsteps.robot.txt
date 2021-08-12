@@ -50,3 +50,14 @@ To make sure both main and branch are up to date
 	git checkout <branch_name>
 	git merge main 	#to add copy of main to my branch
 	
+To Update to latest on my Branch
+	stash your changes
+	pull latest changes
+	reapply your stash
+	resolve conflicts if needed
+	commit changes (if you resolved conflicts)
+OR
+    commit your changes
+	pull latest changes
+	resolve conflicts if needed
+	commit changes (if you resolved conflicts)
