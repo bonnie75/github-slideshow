@@ -37,9 +37,6 @@ If No Conflicts
 	
 	
 To Resolve Conflicts
-	git checkout main
-	Modify file in Main
-	To Commit a File
 	git checkout <branch_name>
 	Modify file in Branch
 	To Commit a File
@@ -61,3 +58,17 @@ OR
 	pull latest changes
 	resolve conflicts if needed
 	commit changes (if you resolved conflicts)
+	
+To Delete a branch locally and remotely
+	git checkout <branch_name> to delete
+	git push -d <remote_name> <branch_name>   #remote name is often "origin"
+    git branch -d <branch_name>
+
+To Check why branch is ahead by ### after committing	#to check the diff
+	git checkout your branch that you havent pushed (data-robot....)
+    git checkout -b diff-test 	#branch from there ()
+    git push --set-upstream origin diff-test	#push the new branch to the remote 
+    go to the stash website and compare your branches	#stash.uncharted.software
+	git checkout working <branch_name>
+	git push
+	
